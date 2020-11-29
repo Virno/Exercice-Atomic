@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+</head>
+<body>
+	
+	<! -- Introduction des alertes-->
+    <div class="alert_erreur">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Erreur !</strong> Indique une erreur dans la formulation ou une mauvaise manipulation.
+      </div>
+    <div class="alert_success">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Success !</strong> Indique une manipulation faite avec succès.
+    </div>
+    <div class="alert_info">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Info !</strong> Indique des informations ou une action.
+    </div><br>
+	<! -- Bouton -->
+    <button class="button">Petit</button>
+    <button class="button_2">Grand</button><br>
+	
+<! -- Newsletter -->
+<form action="">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe to our newsletter blabla.</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Souscrivez un abonnement
+    </label>
+  </div>
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form><br>
+	
+<! -- Fiche produit -->
+<div class="wrapper">
+  <div class="product-img">
+    <img src="http://bit.ly/2tMBBTd" height="420" width="327">
+  </div>
+  <div class="product-info">
+    <div class="product-text">
+      <h1>Blablabla</h1>
+      <h2>design atomic </h2>
+      <p>Les vases de récolte sont une réinterprétation <br> des fruits et légumes pelés en tant qu'objets fonctionnels. Les surfaces <br> semblent être tranchées et écartées, <br> laissant place à la croissance. </p>
+    </div>
+    <div class="product-price-btn">
+      <p><span>8</span>€</p>
+      <button type="button">Acheter</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
